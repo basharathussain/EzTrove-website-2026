@@ -68,9 +68,9 @@ Certbot will:
 
 Renewals are automatic via certbot's systemd timer.
 
-## What's different from the `deployment` branch
+## What's different from the `development` branch
 
-| Concern | `deployment` (localhost) | `test` (VPS) |
+| Concern | `development` (localhost) | `test` (VPS) |
 |---|---|---|
 | Docker port binding | `12090:80` (any host iface) | `127.0.0.1:12090:80` (loopback only) |
 | Public entry point | `http://localhost:12090` | `http://<VPS_IP>/` via host nginx |
