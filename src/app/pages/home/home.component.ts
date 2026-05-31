@@ -113,6 +113,41 @@ import { RouterLink } from '@angular/router';
       </div>
     </section>
 
+    <!-- Companion tool: Product Discovery -->
+    <section class="section">
+      <div class="container-page">
+        <div class="rounded-3xl bg-ink-900 text-white p-10 lg:p-14 grid lg:grid-cols-5 gap-10 items-center">
+          <div class="lg:col-span-3">
+            <span class="eyebrow text-brand-300">Companion tool</span>
+            <h2 class="h2 text-white mt-3">
+              Find your next winning SKU with <span class="text-brand-300">Product Discovery</span>.
+            </h2>
+            <p class="mt-5 text-ink-300 text-lg leading-relaxed max-w-xl">
+              Our standalone discovery workspace surfaces UK supplier products from AliExpress and Amazon UK,
+              scores them on trend, margin, supplier trust and competition, and lets you draft eBay listings in one click —
+              before they ever touch your main EzTrove store.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a href="http://109.199.121.116:12091" target="_blank" rel="noreferrer"
+                 class="inline-flex items-center justify-center rounded-full bg-white text-ink-900 hover:bg-brand-50 font-semibold px-6 py-3 transition">
+                Open Product Discovery →
+              </a>
+              <span class="inline-flex items-center text-sm text-ink-300">UK · GBP · sandbox build</span>
+            </div>
+          </div>
+          <div class="lg:col-span-2">
+            <div class="rounded-2xl bg-ink-700/40 ring-1 ring-white/10 p-6 font-mono text-xs text-brand-300 space-y-2">
+              <div>› discovered_products = 30</div>
+              <div class="text-ink-300">› sources: aliexpress_uk · amazon_uk</div>
+              <div>› top score = 82.6 / 100</div>
+              <div class="text-ink-300">› drafts ready for eBay sandbox</div>
+              <div>› try it free →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Pricing teaser -->
     <section class="section bg-brand-50">
       <div class="container-page text-center">
