@@ -26,6 +26,14 @@ Health check: `GET /healthz` returns `ok`.
 
 To stop: `docker compose down`.
 
+## Test server
+
+The `test` branch is deployed to a staging VPS and is reachable at:
+
+**http://109.199.121.116:12090**
+
+Same port as local so URLs stay consistent. Deploy workflow: push to `origin/test`, then on the VPS run `./deploy/deploy.sh` (or one-line from your Mac: `ssh eztrove-vps 'cd /opt/eztrove && ./deploy/deploy.sh'`). Full VPS setup notes are in `deploy/README.md`.
+
 ## Local dev (without Docker)
 
 ```bash
