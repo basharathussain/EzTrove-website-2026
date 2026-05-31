@@ -4,9 +4,8 @@ services:
     container_name: eztrove-web
     restart: unless-stopped
     ports:
-      # Bind only to loopback — host nginx reverse-proxies public traffic.
-      # Container is not directly exposed to the public internet.
-      - "127.0.0.1:12090:80"
+      # Direct public exposure on 12090 (no host nginx in front).
+      - "12090:80"
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost/healthz"]
       interval: 30s
