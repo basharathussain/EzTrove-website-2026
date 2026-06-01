@@ -148,6 +148,46 @@ import { RouterLink } from '@angular/router';
       </div>
     </section>
 
+    <!-- Companion tool: TallyTrove -->
+    <section class="section pt-0">
+      <div class="container-page">
+        <div class="rounded-3xl bg-ink-900 text-white p-10 lg:p-14 grid lg:grid-cols-5 gap-10 items-center">
+          <div class="lg:col-span-3">
+            <span class="eyebrow text-brand-300">Companion tool</span>
+            <h2 class="h2 text-white mt-3">
+              Honest sourcing with every cost on the receipt —
+              <span class="text-brand-300">TallyTrove</span>.
+            </h2>
+            <p class="mt-5 text-ink-300 text-lg leading-relaxed max-w-xl">
+              Where Product Discovery helps you find what to list, TallyTrove is the transparent storefront
+              your buyers actually shop on. Itemised pricing on every cart, pre-checkout price-drift verification,
+              and a back-office that lets an operator place the real AliExpress order with one click — across US and UK regions.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a href="http://109.199.121.116:12095" target="_blank" rel="noreferrer"
+                 class="inline-flex items-center justify-center rounded-full bg-white text-ink-900 hover:bg-brand-50 font-semibold px-6 py-3 transition">
+                Open TallyTrove storefront →
+              </a>
+              <a href="http://109.199.121.116:12096" target="_blank" rel="noreferrer"
+                 class="inline-flex items-center justify-center rounded-full border border-white/30 text-white hover:bg-white/10 font-semibold px-6 py-3 transition">
+                Open TallyTrove admin
+              </a>
+              <span class="inline-flex items-center text-sm text-ink-300">US + UK · live FX · sandbox</span>
+            </div>
+          </div>
+          <div class="lg:col-span-2">
+            <div class="rounded-2xl bg-ink-700/40 ring-1 ring-white/10 p-6 font-mono text-xs text-brand-300 space-y-2">
+              <div>› region = GB · currency = GBP</div>
+              <div class="text-ink-300">› item £5.20 · ship £1.40 · fees £0.80</div>
+              <div>› drift check ✓ (0.4% under 2%)</div>
+              <div class="text-ink-300">› vendor_order created · ops queue</div>
+              <div>› try it free →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Pricing teaser -->
     <section class="section bg-brand-50">
       <div class="container-page text-center">
